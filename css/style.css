@@ -800,6 +800,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 60px 0 60px 0;
 }
 
+#reg-padding{
+
+  position: relative; 
+  top: 10px; 
+  left: 70px;
+}
+
 #schedule .nav-tabs {
   text-align: center;
   margin: auto;
@@ -832,7 +839,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 18px;
   font-style: italic;
   margin: 0 auto 30px auto;
-}
+ }
 
 #schedule .tab-pane {
   transition: ease-in-out .2s;
@@ -889,6 +896,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #152b79;
   margin-bottom: 0;
 }
+
+ 
 
 /*--------------------------------------------------------------
 # Venue Section
