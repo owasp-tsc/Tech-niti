@@ -1325,12 +1325,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #f82249;
 }
 
-#contact .contact-address,
-#contact .contact-phone,
-#contact .contact-email {
+#contact .contact-instagram,
+#contact .contact-facebook,
+#contact .contact-phone {
   margin-bottom: 20px;
 }
-
+/*
 #contact .form #sendmessage {
   color: #f82249;
   border: 1px solid #f82249;
@@ -1386,7 +1386,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .form button[type="submit"]:hover {
   background: #e0072f;
 }
-
+*/
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -1400,7 +1400,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer .footer-top {
   background: #040919;
-  padding: 60px 0 30px 0;
+  padding: 20px 0 5px 250px;
 }
 
 #footer .footer-top .footer-info {
@@ -1468,21 +1468,25 @@ body.mobile-nav-active #mobile-nav-toggle {
   list-style: none;
   padding: 0;
   margin: 0;
+  column-count: 2;
+
 }
 
 #footer .footer-top .footer-links ul i {
   padding-right: 5px;
   color: #f82249;
   font-size: 18px;
+
 }
 
 #footer .footer-top .footer-links ul li {
   border-bottom: 1px solid #262c44;
   padding: 10px 0;
+  
 }
 
 #footer .footer-top .footer-links ul li:first-child {
-  padding-top: 0;
+  
 }
 
 #footer .footer-top .footer-links ul a {
@@ -1528,7 +1532,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer .copyright {
   text-align: center;
-  padding-top: 30px;
+  padding-top: 10px;
 }
 
 #footer .credits {
