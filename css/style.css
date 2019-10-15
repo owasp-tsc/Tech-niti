@@ -1118,6 +1118,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #faq {
   padding: 60px 0;
+    background-color: #eee;
 }
 
 #faq #faq-list {
