@@ -1409,6 +1409,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 14px;
 }
 
+
 #footer .footer-top {
   background: #040919;
   padding: 20px 0 5px 250px;
@@ -1429,8 +1430,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-info img {
-  height: 40px;
+  height:40px;
   margin-bottom: 10px;
+ 
 }
 
 #footer .footer-top .footer-info p {
