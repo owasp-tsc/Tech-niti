@@ -1677,3 +1677,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-top: 10px;
   }
 }
+@media (max-width: 1200px) {
+  #footer .footer-top {
+    padding: 10px;
+  }
+}
