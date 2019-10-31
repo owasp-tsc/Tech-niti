@@ -1610,18 +1610,44 @@ body.mobile-nav-active #mobile-nav-toggle {
     top: 70px;
   }
 
-  #intro h1 {
+  /*#intro h1 {
     font-size: 250px;
   }
 
   #intro p {
     font-size: 26px;
-  }
+  } */
 
   #schedule .nav-tabs a {
     padding: 8px 60px;
   }
 }
+
+/*HEADING*/
+@media (min-width: 750px)
+{ #intro h1 {
+   font-size: 500px;
+  }
+  #intro p {
+    font-size: 100px;
+    } }
+
+@media (min-width: 375px)
+{ #intro h1 {
+   font-size: 50px;
+  } 
+  #intro p {
+   font-size: 20px;
+    }}
+
+@media (min-width: 200px)
+{ #intro h1 {
+   font-size: 40px;
+  } 
+  #intro p {
+   font-size: 15px;
+    }}
+
 
 @media (max-width: 768px) {
   .back-to-top {
